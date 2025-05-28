@@ -1,6 +1,6 @@
 🎫 MINI TICKET SYSTEM
 
-This is a beginner-friendly PHP-based support ticketing system built without any framework. It allows agents and admins to manage tickets in a simple and minimal way.
+This is a PHP-based support ticketing system built without any framework. It allows agents and admins to manage tickets in a simple and minimal way.
 
 -------------------------------------------------------
 🔧 FEATURES
