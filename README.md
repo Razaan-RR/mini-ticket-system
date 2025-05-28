@@ -6,13 +6,11 @@ This is a PHP-based support ticketing system built without any framework.
 🔧 FEATURES
 
 - ✅ User Registration (with role: agent or admin)
-- ✅ Simple login system (planned)
+- ✅ Login system 
 - ✅ Agents can:
     - Create support tickets
-    - View and update their own tickets
 - ✅ Admins can:
-    - View all tickets
-    - Assign tickets to agents (planned)
+    - Create, Update, and Delete departments
 - ✅ Role-based access control
 - ✅ Secure password hashing using PHP
 
