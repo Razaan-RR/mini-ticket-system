@@ -51,10 +51,9 @@ Given in the file name sql_schema.txt in the storage folder
 5. Open browser and run: http://localhost/mini-ticket-system/public/
 
 -------------------------------------------------------
-👨‍💻 AUTHOR
+👨‍💻 Seeder
 
-Razaan  
-GitHub: https://github.com/Razaan-RR
+The seeder files are in public/seed_data.php
 
 -------------------------------------------------------
 
