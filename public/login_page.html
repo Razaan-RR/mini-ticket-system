@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Login</title>
+  <style>
+    body 
+    { 
+        font-family: Arial, 
+        sans-serif; 
+        max-width: 400px; 
+        margin: 40px auto; 
+    }
+    input, button 
+    { 
+        width: 100%; 
+        padding: 8px; 
+        margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Login Page</h2>
+  <form action="http://localhost/Mini_Ticket_System(Razaan)/public/login_page.php" method="post">
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="password" name="password" placeholder="Password" required />
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
