@@ -21,12 +21,12 @@ This is a beginner-friendly PHP-based support ticketing system built without any
 
 mini-ticket-system/
 │
-├── config/           # Database connection
-├── models/           # Database interaction (UserModel.php, TicketModel.php)
-├── controllers/      # Business logic
-├── public/           # Public access (index.php, form handlers)
-├── views/            # HTML files (optional)
-└── README.txt        # This file
+├── config/           
+├── models/           
+├── controllers/     
+├── public/           
+├── views/           
+└── README.txt       
 
 -------------------------------------------------------
 🛠️ TECH USED
@@ -39,32 +39,7 @@ mini-ticket-system/
 -------------------------------------------------------
 🗄️ DATABASE SCHEMA (MySQL)
 
-Database: mini_ticket_system
-
-Create table users (
-    id int auto_increment primary key, 
-    name varchar(100), 
-    email varchar(100) unique, 
-    password_hash text, 
-    role enum('admin', 'agent') default 'agent'
-);
-
-Create table department( 
-    id integer auto_increment primary key, 
-    name text 
-);
-
-Create table ticket(
-    id int auto_increment primary key,
-    title varchar(255) not null,
-    description text not null,
-    status enum('open', 'in_progress', 'closed') default 'open',
-    user_id int not null,
-    department_id int not null,
-    created_at datetime default current_timestamp,
-    foreign key (user_id) references users(id),
-    foreign key (department_id) references department(id)
-);
+Given in the file name sql_schema.txt in the storage folder
 
 -------------------------------------------------------
 🚀 HOW TO RUN LOCALLY
